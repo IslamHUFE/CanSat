@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "can")(type "KiCad")(uri "/home/islam-tarek-moawad/Documents/learn/PCB/CanSat/can.pretty")(options "")(descr ""))
+)
