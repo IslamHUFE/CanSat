@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ada55568-e6f2-41bf-8281-98f3e43bc4c1")
 	(paper "A4")
 	(lib_symbols
@@ -13,8 +13,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "Screw_Terminal_01x07"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,47 +37,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Screw_Terminal_01x07_1_1"
@@ -464,8 +480,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -474,6 +494,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -482,29 +504,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SX1276-module_1_1"
@@ -651,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 77.47) (xy 95.25 77.47)
+			(xy 104.14 77.47) (xy 95.25 77.47)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 87.63) (xy 95.25 87.63)
+			(xy 104.14 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 95.25 85.09)
+			(xy 104.14 85.09) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 95.25 82.55)
+			(xy 104.14 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
@@ -691,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 90.17) (xy 95.25 90.17)
+			(xy 104.14 90.17) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -701,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 95.25 80.01)
+			(xy 104.14 80.01) (xy 95.25 80.01)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 74.93) (xy 95.25 74.93)
+			(xy 104.14 74.93) (xy 95.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -723,13 +751,17 @@
 		(lib_id "Connector:Screw_Terminal_01x07")
 		(at 90.17 82.55 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "82624644-da40-431c-9ce8-2df25d658254")
 		(property "Reference" "J1"
 			(at 90.17 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,38 +770,46 @@
 		)
 		(property "Value" "Screw_Terminal_01x07"
 			(at 90.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B7B-EH-A_1x07_P2.50mm_Vertical"
 			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 90.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -794,7 +834,7 @@
 			(uuid "660ea050-948b-4ee7-9cfe-3cb218156122")
 		)
 		(instances
-			(project ""
+			(project "comm"
 				(path "/ada55568-e6f2-41bf-8281-98f3e43bc4c1"
 					(reference "J1")
 					(unit 1)
@@ -804,16 +844,20 @@
 	)
 	(symbol
 		(lib_id "me:SX1276-module")
-		(at 104.14 82.55 0)
+		(at 109.22 82.55 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c772e99f-2e86-47f3-83ae-5b33c4129ae7")
 		(property "Reference" "U1"
-			(at 107.95 81.2799 0)
+			(at 113.03 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +866,9 @@
 			)
 		)
 		(property "Value" "SX1276"
-			(at 107.95 83.8199 0)
+			(at 113.03 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,30 +877,36 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 104.14 82.55 0)
+			(at 109.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 82.55 0)
+			(at 109.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 104.14 82.55 0)
+			(at 109.22 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -879,7 +931,7 @@
 			(uuid "d11a86aa-a66e-4b76-a26c-79c1dcbd7536")
 		)
 		(instances
-			(project ""
+			(project "comm"
 				(path "/ada55568-e6f2-41bf-8281-98f3e43bc4c1"
 					(reference "U1")
 					(unit 1)
