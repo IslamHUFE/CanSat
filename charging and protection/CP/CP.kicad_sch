@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "8ede4069-1d2a-493e-aa11-607bfacf54d9")
 	(paper "A4")
 	(lib_symbols
@@ -13,8 +13,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,47 +37,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Screw_Terminal_01x02_1_1"
@@ -202,8 +218,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -10.16 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -213,6 +233,8 @@
 			)
 			(property "Value" "TP4056_MICRO-USB_CHARGER_-_1A"
 				(at -10.16 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -222,190 +244,228 @@
 			)
 			(property "Footprint" "TP4056_MICRO-USB_CHARGER_-_1A:MODULE_TP4056_MICRO-USB_CHARGER_-_1A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MF" "Generic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "3.562mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "CREATOR" "ASHISH"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "NOTES" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Package" "Package"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/TP4056%20Micro-USB%20Charger%20-%201A/Generic/view-part/?ref=eda"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "PARTREV" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "VERIFIER" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TP4056%20Micro-USB%20Charger%20-%201A/Generic/view-part/?ref=snap"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MP" "TP4056 Micro-USB Charger - 1A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Description_1" "The TP4056ES Li-Ion micro USB charger is an improved version of the TP4056, ideal for 18650 batteries, with a micro USB connection for direct PC charging."
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Availability" "Not in stock"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Price" "None"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "UNIT" "mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "MANUFACTURER" "Generic"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(symbol "TP4056_MICRO-USB_CHARGER_-_1A_0_0"
@@ -420,35 +480,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -15.24 7.62 0)
+				(pin power_in line
+					(at 15.24 -7.62 180)
 					(length 5.08)
-					(name "IN+"
+					(name "BAT-"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "IN_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -7.62 0)
-					(length 5.08)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "IN_N"
+					(number "BAT_N"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -474,17 +516,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at 15.24 2.54 180)
+				(pin input line
+					(at -15.24 -7.62 0)
 					(length 5.08)
-					(name "OUT+"
+					(name "IN-"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "OUT_P"
+					(number "IN_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "IN_P"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -510,17 +570,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -7.62 180)
+				(pin output line
+					(at 15.24 2.54 180)
 					(length 5.08)
-					(name "BAT-"
+					(name "OUT+"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BAT_N"
+					(number "OUT_P"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -532,7 +592,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -543,17 +603,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -562,38 +628,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -614,7 +688,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -633,7 +707,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VCC"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -644,17 +718,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -663,38 +743,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VCC\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC_0_1"
@@ -739,7 +827,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -966,23 +1054,29 @@
 		(lib_id "power:GND")
 		(at 118.11 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dbbff35-0864-4f7a-b9e6-67796182639f")
 		(property "Reference" "#PWR01"
 			(at 118.11 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 118.11 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,36 +1085,42 @@
 		)
 		(property "Footprint" ""
 			(at 118.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 118.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a5022148-b411-4910-b883-a73db858df8f")
 		)
 		(instances
-			(project ""
+			(project "CP"
 				(path "/8ede4069-1d2a-493e-aa11-607bfacf54d9"
 					(reference "#PWR01")
 					(unit 1)
@@ -1033,13 +1133,17 @@
 		(at 77.47 105.41 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "337506bb-baa2-4abe-871b-3d9018b99793")
 		(property "Reference" "J4"
 			(at 80.264 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,39 +1152,47 @@
 		)
 		(property "Value" "Screw_Terminal_01x02"
 			(at 80.01 102.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1102,14 +1214,18 @@
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 123.19 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70694f62-5d47-4fbf-8ac0-5122851d160e")
 		(property "Reference" "J5"
 			(at 125.73 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,6 +1235,8 @@
 		)
 		(property "Value" "Screw_Terminal_01x02"
 			(at 125.73 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,29 +1246,35 @@
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 123.19 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 123.19 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1160,7 +1284,7 @@
 			(uuid "bcf3857e-8972-4b96-8fcc-d52199bbaea7")
 		)
 		(instances
-			(project ""
+			(project "CP"
 				(path "/8ede4069-1d2a-493e-aa11-607bfacf54d9"
 					(reference "J5")
 					(unit 1)
@@ -1172,13 +1296,17 @@
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 64.77 97.79 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "794df647-079b-4db8-aaaf-9ed0d991f2e8")
 		(property "Reference" "J2"
 			(at 61.976 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,39 +1315,47 @@
 		)
 		(property "Value" "Screw_Terminal_01x02"
 			(at 62.23 95.2501 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 64.77 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1242,13 +1378,17 @@
 		(at 100.33 100.33 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "796f1304-118f-4370-bfec-08a1d0542ab7")
 		(property "Reference" "U1"
 			(at 100.33 99.822 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,6 +1397,8 @@
 		)
 		(property "Value" "TP4056_MICRO-USB_CHARGER_-_1A"
 			(at 100.33 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,190 +1407,228 @@
 		)
 		(property "Footprint" "can:MODULE_TP4056_MICRO-USB_CHARGER_-_1A"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MF" "Generic"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.562mm"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "CREATOR" "ASHISH"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "NOTES" ""
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Package" "Package"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TP4056%20Micro-USB%20Charger%20-%201A/Generic/view-part/?ref=eda"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "PARTREV" ""
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "VERIFIER" ""
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TP4056%20Micro-USB%20Charger%20-%201A/Generic/view-part/?ref=snap"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MP" "TP4056 Micro-USB Charger - 1A"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Description_1" "The TP4056ES Li-Ion micro USB charger is an improved version of the TP4056, ideal for 18650 batteries, with a micro USB connection for direct PC charging."
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Availability" "Not in stock"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Price" "None"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "UNIT" "mm"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Generic"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(pin "IN_P"
@@ -1470,7 +1650,7 @@
 			(uuid "b4f42ff5-70ec-4156-9378-86a3057daa67")
 		)
 		(instances
-			(project ""
+			(project "CP"
 				(path "/8ede4069-1d2a-493e-aa11-607bfacf54d9"
 					(reference "U1")
 					(unit 1)
@@ -1483,13 +1663,17 @@
 		(at 77.47 97.79 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "899057bf-4427-419a-996f-6a2059d31695")
 		(property "Reference" "J3"
 			(at 80.01 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,39 +1682,47 @@
 		)
 		(property "Value" "Screw_Terminal_01x02"
 			(at 80.01 95.2501 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1552,23 +1744,29 @@
 		(lib_id "power:VCC")
 		(at 118.11 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbec4e59-0a92-490d-8386-99cfbdfde5b6")
 		(property "Reference" "#PWR02"
 			(at 118.11 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 118.11 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,36 +1775,42 @@
 		)
 		(property "Footprint" ""
 			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 118.11 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4c0dcfa4-e9c8-4724-9505-d2ed86499345")
 		)
 		(instances
-			(project ""
+			(project "CP"
 				(path "/8ede4069-1d2a-493e-aa11-607bfacf54d9"
 					(reference "#PWR02")
 					(unit 1)
@@ -1618,13 +1822,17 @@
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 64.77 105.41 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f36f12aa-9a76-48fc-a619-5dbad658f9e0")
 		(property "Reference" "J1"
 			(at 61.976 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,39 +1841,47 @@
 		)
 		(property "Value" "Screw_Terminal_01x02"
 			(at 62.23 102.8701 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 64.77 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 64.77 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1675,7 +1891,7 @@
 			(uuid "042c47c5-9c6e-4f9f-9bf7-36deb4030a2e")
 		)
 		(instances
-			(project ""
+			(project "CP"
 				(path "/8ede4069-1d2a-493e-aa11-607bfacf54d9"
 					(reference "J1")
 					(unit 1)
