@@ -4055,12 +4055,6 @@
 		(uuid "0ae7d7b2-0d4f-4d69-a478-f1af5b88be66")
 	)
 	(junction
-		(at 166.37 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c4f94c9-4f3f-4356-968c-1268d9d7dc05")
-	)
-	(junction
 		(at 128.27 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4079,28 +4073,10 @@
 		(uuid "1f3609fd-e06a-419c-8bb9-c22c8d88c896")
 	)
 	(junction
-		(at 130.81 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20d34664-fc9b-4d2d-ac55-ee04189dc8bc")
-	)
-	(junction
 		(at 130.81 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23195711-fb55-46e6-ad92-c9110bd44d41")
-	)
-	(junction
-		(at 140.97 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b1334dd-e061-4fb1-a473-5069b74796a4")
-	)
-	(junction
-		(at 125.73 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fb77a53-e28a-4a63-8b45-0a3a6d43eee2")
 	)
 	(junction
 		(at 118.11 39.37)
@@ -4151,18 +4127,6 @@
 		(uuid "6f4039f3-b4ed-4b47-9b88-5d5fbcfeecfe")
 	)
 	(junction
-		(at 120.65 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89261ec2-9051-4597-af42-cfbbd4db2528")
-	)
-	(junction
-		(at 146.05 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fe8b88c-9ee0-405e-8626-fcaff24db01c")
-	)
-	(junction
 		(at 181.61 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4173,18 +4137,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "992c8752-e950-467f-a497-f6e87ac50578")
-	)
-	(junction
-		(at 156.21 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa21f619-0498-4da4-98e7-74077aa6544c")
-	)
-	(junction
-		(at 151.13 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abd1eeaa-febe-463f-bd4c-4c907db2f9b4")
 	)
 	(junction
 		(at 161.29 31.75)
@@ -4209,12 +4161,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb080166-bc9c-46ed-a2e2-67d8b0e67e1a")
-	)
-	(junction
-		(at 115.57 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d286d3e8-9d9d-4e76-a457-11a92309ebfd")
 	)
 	(junction
 		(at 156.21 31.75)
@@ -4247,12 +4193,6 @@
 		(uuid "f490af30-951a-43e7-aba1-859f3be23588")
 	)
 	(junction
-		(at 135.89 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4a80b8b-f956-4ae6-bae0-3f2cd9b6c392")
-	)
-	(junction
 		(at 135.89 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4263,12 +4203,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa320d97-1651-4995-8ca9-405955ef70b3")
-	)
-	(junction
-		(at 161.29 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb5ebab3-562e-496e-884a-15533bc8ea6f")
 	)
 	(junction
 		(at 209.55 74.93)
@@ -4289,16 +4223,6 @@
 			(type default)
 		)
 		(uuid "01f05bf5-137e-4048-94cb-c5926e8446a5")
-	)
-	(wire
-		(pts
-			(xy 151.13 39.37) (xy 156.21 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f4e842-d58b-4478-9b15-2cd31da6b756")
 	)
 	(wire
 		(pts
@@ -4522,16 +4446,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 39.37) (xy 135.89 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "449907e6-32b8-4176-92b1-112b679ef98a")
-	)
-	(wire
-		(pts
 			(xy 118.11 39.37) (xy 120.65 39.37)
 		)
 		(stroke
@@ -4589,16 +4503,6 @@
 			(type default)
 		)
 		(uuid "4e1a1ad3-b1af-49ba-b16b-9ea215d9df73")
-	)
-	(wire
-		(pts
-			(xy 76.2 78.74) (xy 115.57 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55783c62-5a3d-4148-8ec8-bdb47474da20")
 	)
 	(wire
 		(pts
@@ -4722,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 39.37) (xy 166.37 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8122dbf9-a5c7-4405-a7c7-79f95ddc30a8")
-	)
-	(wire
-		(pts
 			(xy 168.91 39.37) (xy 171.45 39.37)
 		)
 		(stroke
@@ -4809,16 +4703,6 @@
 			(type default)
 		)
 		(uuid "9c01e365-f3da-4f7e-baeb-d321424b4dd2")
-	)
-	(wire
-		(pts
-			(xy 140.97 39.37) (xy 146.05 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9e9d4d-2183-42db-9f0f-8389efcd78d3")
 	)
 	(wire
 		(pts
@@ -5019,16 +4903,6 @@
 			(type default)
 		)
 		(uuid "deb30c9a-6c5c-4eeb-b527-592a4d24df4f")
-	)
-	(wire
-		(pts
-			(xy 120.65 39.37) (xy 125.73 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "decc574a-5357-4173-81fb-71da6fe677d9")
 	)
 	(wire
 		(pts
@@ -5526,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 155.2448 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5814,7 +5688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 134.9248 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6373,7 +6247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 124.7648 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6615,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
+		(property "Footprint" "Inductor_SMD:L_Walsin_WLFM201609x"
 			(at 128.27 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -7369,7 +7243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 165.4048 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7533,7 +7407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 145.0848 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
 			(at 114.6048 31.75 0)
 			(hide yes)
 			(show_name no)
