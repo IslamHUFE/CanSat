@@ -1,5 +1,5 @@
 #!/bin/bash
 
 git add .
-git commit -m "refresh"
+git commit -m "islam"
 git push origin master
