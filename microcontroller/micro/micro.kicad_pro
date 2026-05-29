@@ -690,7 +690,7 @@
         "uuid": "20867279-5aff-4560-94cd-e855d560edf3"
       }
     ],
-    "used_designators": "C15-16,#PWR9-10,U3",
+    "used_designators": "#PWR11,U4",
     "variants": []
   },
   "sheets": [
