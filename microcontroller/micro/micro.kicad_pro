@@ -1444,7 +1444,7 @@
         "uuid": "20867279-5aff-4560-94cd-e855d560edf3"
       }
     ],
-    "used_designators": "J2",
+    "used_designators": "#PWR8,#PWR12-15,J2-7",
     "variants": []
   },
   "sheets": [
