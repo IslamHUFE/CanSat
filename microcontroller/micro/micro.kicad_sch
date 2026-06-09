@@ -5249,6 +5249,12 @@
 		(uuid "0ae7d7b2-0d4f-4d69-a478-f1af5b88be66")
 	)
 	(junction
+		(at 135.89 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1103fd10-e9e4-4311-be11-a412a928b460")
+	)
+	(junction
 		(at 181.61 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5369,6 +5375,12 @@
 		(uuid "8e7ea094-d9b8-4036-ad11-00b4b35061b6")
 	)
 	(junction
+		(at 135.89 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ce69be-5f7b-437c-b7f7-a9bf43b92fa9")
+	)
+	(junction
 		(at 173.99 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5487,6 +5499,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da337b36-edda-4129-a684-ebe859fb304f")
+	)
+	(junction
+		(at 135.89 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca8c5a9-eb53-41fd-ab69-07246642eb2e")
 	)
 	(junction
 		(at 173.99 66.04)
@@ -6160,6 +6178,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 176.53) (xy 135.89 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dc75d0-5bb3-4b9c-842c-791613dfba2e")
+	)
+	(wire
+		(pts
+			(xy 133.35 176.53) (xy 135.89 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53081435-8aa2-409e-8eba-43842c741a6c")
+	)
+	(wire
+		(pts
 			(xy 262.89 111.76) (xy 276.86 111.76)
 		)
 		(stroke
@@ -6317,6 +6355,16 @@
 			(type default)
 		)
 		(uuid "68679b71-c92b-4d40-869c-8aa780113e8c")
+	)
+	(wire
+		(pts
+			(xy 135.89 166.37) (xy 135.89 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f121410-5c2b-4ad3-92ab-d0b6f5dc85c2")
 	)
 	(wire
 		(pts
@@ -6710,6 +6758,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 156.21) (xy 133.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa602aea-f4d9-41ea-89dc-ed2ebdcaaa35")
+	)
+	(wire
+		(pts
 			(xy 227.33 190.5) (xy 153.67 190.5)
 		)
 		(stroke
@@ -7000,6 +7058,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 186.69) (xy 135.89 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86e1e2b-0722-4876-ba60-d62392bc26e9")
+	)
+	(wire
+		(pts
 			(xy 143.51 118.11) (xy 147.32 118.11)
 		)
 		(stroke
@@ -7027,6 +7095,16 @@
 			(type default)
 		)
 		(uuid "d00090e4-077a-4e32-974f-e7d35661e222")
+	)
+	(wire
+		(pts
+			(xy 133.35 166.37) (xy 135.89 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d524b387-2572-493d-b11d-51c0727ead81")
 	)
 	(wire
 		(pts
@@ -7077,6 +7155,16 @@
 			(type default)
 		)
 		(uuid "da3fff4a-d698-48d8-b016-acd9ea2d8d01")
+	)
+	(wire
+		(pts
+			(xy 135.89 156.21) (xy 135.89 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc1d87e-2153-40ae-b959-7d7d71ca7675")
 	)
 	(wire
 		(pts
@@ -10836,6 +10924,84 @@
 			(project "micro"
 				(path "/20867279-5aff-4560-94cd-e855d560edf3"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 135.89 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd284822-d570-43f2-8208-986052014785")
+		(property "Reference" "#PWR015"
+			(at 135.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 135.89 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 135.89 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a8fd3c-83f6-42c7-bae6-918e80479ffc")
+		)
+		(instances
+			(project "micro"
+				(path "/20867279-5aff-4560-94cd-e855d560edf3"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
