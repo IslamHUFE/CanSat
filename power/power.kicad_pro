@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -159,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 2.0,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -211,6 +211,9 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
+        0.5,
+        1.0,
         2.0,
         3.0
       ],
@@ -684,7 +687,7 @@
         "uuid": "0ff3d319-774a-4707-a798-a9553af10682"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J2-9,#PWR5,#PWR8",
     "variants": []
   },
   "sheets": [
